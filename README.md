@@ -4,18 +4,13 @@ This repository contains a complete, end-to-end solution for the Generative Melo
 
 The project trains an LSTM network on the JSB Chorales data set (symbolic, monophonic) and generates new chorale-style melodies, outputting them as MIDI files that can be auditioned inside MATLAB® or any DAW.
 
-⸻
-
 ### 📂 Program Link
 
 ➡ Repository: https://github.com/qquella/MATLAB_ProjectSolution
 
-⸻
-
 ### 📄 Project Description Link
 
 ➡ Challenge page: https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Music%20Composition%20with%20Deep%20Learning#music-composition-with-deep-learning
-⸻
 
 ### 🛠️ Project Details
 
@@ -33,8 +28,6 @@ main.m Minimal entry point showing typical arguments.
     •	Sequence Modelling A standard seq-to-seq LSTM is the baseline; you can drop in a Transformer or diffusion model later without touching the data pipeline.
     •	Pure MATLAB Workflow No external Python or TensorFlow calls—just Deep Learning Toolbox™ and Audio Toolbox™.
 
-⸻
-
 ### ▶️ How to Run
 
 1. Requirements
@@ -51,9 +44,9 @@ cd generative-melody-composer
 
 3. Download the data
 
-JSB_Chorales/
-├── train/_.csv
-├── valid/_.csv
+JSB*Chorales/
+├── train/*.csv
+├── valid/\_.csv
 └── test/\*.csv
 
 Each CSV must have one row of comma-separated MIDI pitches; use -1 for rests.
